@@ -1,0 +1,32 @@
+@font-face {
+	font-family: 'Time-Roman';
+	src: url('../fonts/Time-Roman.eot');
+	src: url('../fonts/Time-Roman.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Time-Roman.woff') format('woff'),
+		url('../fonts/Time-Roman.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'LucidaGrande-Bold';
+	src: url('../fonts/LucidaGrande-Bold.eot');
+	src: url('../fonts/LucidaGrande-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/LucidaGrande-Bold.woff') format('woff'),
+		url('../fonts/LucidaGrande-Bold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  }
+
+
+
+body {
+  font-family: LucidaGrande-Bold;
+  background: lightblie;
+  width: 980px;
+  margin: 0 auto;
+}

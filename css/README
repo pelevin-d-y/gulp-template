@@ -1,0 +1,49 @@
+Папка для скомпилированных стилей. Файлы препроцессоров держите в другой папке. Например, для *.less используйте папку less, для *.scss используйте папку sass и так далее.
+
+Скомпилированные CSS-файлы не отправляйте в репозиторий. В репозитории должны быть только файлы препроцессора.
+
+--
+
+Структура файлов:
+
+css/
+| - style.css
+less/
+| - style.less
+| - [другие *.less файлы]
+sass/
+| - style.scss
+| - [другие *.scss файлы]
+postcss/
+| - style.css
+| - [другие *.css файлы]
+
+ .slider-pay-plan__container {
+  display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .slider-pay-plan__toogles {
+    display: none;
+  }
+
+  .slider-pay-plan__item {
+    display: flex;
+  }
+
+  .slider-pay-plan__title {
+    width: 154px;
+    min-height: 79px;
+  }
+
+  .slider-pay-plan__options {
+
+  }
+
+  .slider-pay-plan__options-item {
+    width: 153px;
+  }
+  .slider-pay-plan__options-item-text {
+    display: none;
+  }
